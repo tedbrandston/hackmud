@@ -14,7 +14,7 @@ function (c,a) {
         d().forEach((p, i) => {
             // if the origin output has corruption and the new doesn't,
             // replace the corrpution with the proper char
-            if (r.test(o[i]) && !(r.test(p)))
+            if (r.test(o[i]))
                     o[i] = p
         })
     }
